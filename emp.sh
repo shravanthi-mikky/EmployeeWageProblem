@@ -8,3 +8,8 @@ then
 else
 	echo "Employee is Absent "
 fi
+#Calculate Daily Employee Wage
+days=20
+hours=8
+wage=$(( $randomnum * $days * $hours ))
+echo "Daily wage of employee is : " $wage
