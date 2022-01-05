@@ -32,3 +32,6 @@ case $randomcheck in
 		empHrs=0;;
 esac
 Salary=$(($empHrs*$empRatePerHour))
+workingDays=20
+salaryForMonth=$(( $Salary * $workingDays ))
+echo $salaryForMonth
